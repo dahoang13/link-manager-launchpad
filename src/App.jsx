@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { 
   Rocket, ExternalLink, AlertTriangle, Plus, Trash2, 
   Folder, Link as LinkIcon, AppWindow, SquareMenu, Settings2, Copy, Check,
-  FileText, ClipboardCopy, Type, Edit2, Search, Languages
+  FileText, ClipboardCopy, Type, Edit2, Search, Play, Languages
 } from 'lucide-react';
 
 const defaultLearningLinks = [
@@ -395,7 +395,7 @@ export default function App() {
                   <Languages size={16} className="stroke-[2.5]" /> Translate
                 </a>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="col-span-1 bg-white border-2 border-black rounded-lg p-2 flex items-center justify-center gap-1.5 hover:bg-[#ff4d85] hover:text-white shadow-[2px_2px_0_0_#000] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all text-xs font-black uppercase" title="YouTube">
-                  <Youtube size={16} className="stroke-[2.5]" /> Youtube
+                  <Play size={16} className="stroke-[2.5]" /> Youtube
                 </a>
                 <a href="https://www.google.com/search?sourceid=chrome&udm=50&aep=42&source=chrome.crn.rb" target="_blank" rel="noopener noreferrer" className="col-span-2 bg-white border-2 border-black rounded-lg p-2 flex items-center justify-center gap-1.5 hover:bg-black hover:text-white shadow-[2px_2px_0_0_#000] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all text-xs font-black uppercase" title="Google Search AI">
                   <Search size={16} className="stroke-[2.5]" /> Ask Google AI
